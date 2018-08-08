@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  margin-left:10%;
+  margin-right: 10%;
+  margin-top: 12px;
+  background-color: #F6F6E7; 
+}
+
+li{
+  list-style-type: none;
+  color: black;
+}

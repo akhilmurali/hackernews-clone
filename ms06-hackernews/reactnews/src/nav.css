@@ -1,0 +1,43 @@
+
+#nav{
+    height: 100%;
+    width: 100%;
+}
+.navdiv{
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #f56526;
+    padding: 2px 0px;
+    color: black;
+}
+
+.topics{
+    float: left;
+    width: 70%;
+   
+}
+.login{
+    float: left;
+    width: 30%;
+    text-align: right;
+    padding-right: 23px;
+}
+
+.topics .hackertopics .toplist{
+    float: left;
+    padding: 0px 12px 0px 1px;
+    list-style-type: none;
+   
+}
+.hackericon{
+    float: left;
+    list-style-type: none;
+    border: 1px solid white;
+    padding: 0px 6px;
+    font-size: small;
+    color: white;
+    font-weight: bold;
+    margin-right: 3px;
+    text-align: left;
+    margin-left: -38px;
+}
