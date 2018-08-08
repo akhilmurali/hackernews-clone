@@ -12,7 +12,7 @@ class Nav extends Component{
                        <li className="hackericon">Y</li>
                         <li className="toplist"><strong><Link to="/HackerContent">Hacker News</Link></strong></li>
                         <li className="toplist"><Link to="/NewsContent">news</Link></li>
-                        <li className="toplist"><Link to="/ComitContent">comments</Link></li>
+                        <li className="toplist"><Link to="/CommitContent">comments</Link></li>
                         <li className="toplist"><Link to="/ShowContent">show</Link></li>
                         <li className="toplist"><Link to="/AskContent">ask</Link></li>
                         <li className="toplist"><Link to="/JobContent">jobs</Link></li>

@@ -18,25 +18,18 @@ class App extends Component {
       <Router>
       <div className="App">
         <div>
-          <ul>
-                <li><Link to="/"></Link></li>
-                <li><Link to="/AskContent"></Link></li>
-                <li><Link to="/JobContent"></Link></li>
-                <li><Link to="/NewdContent"></Link></li>
-                <li><Link to="/CommitContent"></Link></li>
-                <li><Link to="/ShowContent"></Link></li>
-                <li><Link to="/HackerContent"></Link></li>
-                </ul>
+
+          <Nav/>
+                
               </div>
-              <Route exact path = "/" component = {Nav} />
-              <Route path = "/" component = {SubmitContent} />
+              <Route path = "/SubmitContent" component = {SubmitContent} />
               <Route path = "/AskContent" component = {AskContent} />
               <Route path = "/JobContent" component = {JobContent} />
               <Route path = "/HackerContent" component = {HackerContent} />
               <Route path = "/NewsContent" component = {NewsContent} />
               <Route path = "/ShowContent" component = {ShowContent} />
               <Route path = "/CommitContent" component = {CommitContent} />
-              <Route exact path = "/" component = {PageFooter} />
+              <Route path = "/" component = {PageFooter} />
               
         </div>
       </Router>
